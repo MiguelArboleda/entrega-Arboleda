@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.header{
+    height: 15vh;
+    background-image: linear-gradient(to top, black, #c750a3);
+}
+.main{
+    height: 75vh;
+    background-color: #c750a3;
+}
+.footer{
+    height: 10vh;
+    background-image: linear-gradient(to top, black, #c750a3);
+}
+/* modificacion del contenido */
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: whitesmoke;
+}
+/* Aqui esta el header, decidi hacer con box modeling esta entrega */
+.nav .nav__links{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1.5rem;
+    padding: 0.5rem;
+}
+.nav .nav__links .nav__link{
+    display:inline-block;
+    margin:0.5rem;
+    margin-top:0.1875rem;
+    margin-left: 0.375rem;
+    margin-right: 0.6875rem;
+}
+.estiloDeletra{
+    color: whitesmoke;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 25px;
+    list-style: none;
+    font-weight: bold;
+}
+/* Aqui esta el main */
+.titulo{
+    color: whitesmoke;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 200;
+}
+.parrafo{
+    color: #f8fc08;
+    font-size: 1.4rem;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.titulo2{
+    color: whitesmoke;
+    margin-left: 10%;
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: 200;
+}
+.lista__enumerada{
+    list-style: decimal;
+}
+.lista__enumeradas .lista__enumerada{
+    color: #f8fc08;
+    font-size: 1.1rem;
+    margin-left: 7%;
+    margin-right: 5%;   
+}
+/* Aqui esta el footer */
+.parteFinal{
+    position: relative;
+    display: block;
+}
+.cuestion__finales{
+    text-align: center;
+    line-height: 1.5rem;
+}
+.cuestion__final{
+    display: inline-block;
+    margin:1%;
+}
+.arreglo{
+    color: whitesmoke;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 1.5rem;
+    list-style: none;
+    font-weight: 500;
+}
+/* clases de lista no numerada */
+.lista__nas{
+    list-style: none;
+}
+.lista__na{
+    color: #f8fc08;
+    font-size: 1.1rem;
+    margin-left: 5%;
+    margin-right: 5%; 
+}
